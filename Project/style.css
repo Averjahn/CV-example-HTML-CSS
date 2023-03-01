@@ -1,0 +1,333 @@
+@font-face {
+    font-family: Gilroy-bold;
+    src: url(font/Gilroy-Bold.woff2);
+}
+
+@font-face {
+    font-family: Gilroy-meidum;
+    src: url(font/Gilroy-Medium.woff2);
+}
+
+@font-face {
+    font-family: Gilroy-bold;
+    src: url(font/Gilroy-Bold.woff2);
+}
+
+* 
+{
+  margin: 0;
+  padding: 0;
+}
+
+header {
+    display: flex;
+    /* border: 1px solid; */
+    margin-top: 33px;
+    flex-direction: column;
+}
+
+
+
+/* Navbar */
+
+
+
+nav {
+    margin: 0 auto;
+    /* border: 1px solid; */
+    display: flex;
+    width: 940px;
+    height: 55px;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    /* align-content: flex-start; */
+    /* margin-top: 48px; */
+    /* margin-top: 13px; */
+    /* flex-direction: column; */
+}
+
+.menu {
+    color: #828282;
+    text-align: center;
+    font-family: Gilroy-bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0em;
+    /* text-align: left; */
+
+    /* padding: 4px; */
+    /* align-self: center; */
+    
+}
+
+a {
+    text-decoration:none;
+    color: none;
+  }
+
+a:active, a:hover {
+    color: black;
+}
+  
+
+.menu:focus {
+    color: black;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+}
+
+.line__elem {
+    /* position: absolute; */
+    width: 940.6px;
+    border: 1px solid #828282;
+    height: 0px;
+}
+
+
+
+/* Information about him */
+
+
+
+.info {
+    display: flex;
+    width: 940px;
+    /* width: 980px; */
+    height: 188px;
+    /* border: 1px solid; */
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.name {
+    font-family: Gilroy-bold;
+    font-size: 48px;
+    /* margin-left: 20px; */
+    /* margin-top: 40px; */
+    /* line-height: 59px; */
+}
+
+.job {
+    font-size: 18px;
+    font-family: Gilroy-meidum;
+    margin-top: 45px;
+    margin-right: 21px;
+}
+
+.ru_eng {
+    font-family: Gilroy-bold;
+    margin-top: 70px;
+    transform: rotate(-90deg);
+    padding: 0;
+    margin-right: -21px;
+    margin-bottom: 39px;
+}
+
+.ru {
+    color:#828282;
+}
+
+.eng {
+
+}
+
+.mainimg {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 104px;
+}
+
+
+
+/* About */
+
+
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    background: #F6F6F6;
+    height: 506px;
+    align-items: center;
+}
+
+.h1_about_me {
+    font-family: Gilroy-bold;
+    margin-top: 120px;
+}
+
+.discr_about_me {
+    /* border: 1px solid; */
+    font-size: 18px;
+    line-height: 22px;
+    width: 485px;
+    height: 218px;
+    text-align: center;
+    font-family: Gilroy-meidum;
+    margin-top: 18px
+}
+
+
+
+/* Skills */
+
+
+
+.skills {
+    display: flex;
+    height: 610px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h1_skills {
+    margin-top: 91px;
+    font-family: Gilroy-bold;
+}
+
+.discr_programs {
+    margin-top: 69px;
+    font-family: Gilroy-medium;
+    font-size: 18px;
+}
+
+.programs {
+    display: flex;
+    flex-direction: row;
+    margin-top: 83px;
+    /* border: 1px solid; */
+    width: 884px;
+    justify-content: space-between;
+}
+
+.prog_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 166px;
+    height: 206px;
+    /* border: 1px solid; */
+}
+
+.prog_name {
+    font-family: Gilroy-bold;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 24px;
+    color: #828282;
+}
+
+.prog_stars {
+    /* border: 1px solid; */
+    width: 166px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+
+
+/* Portfolip */
+
+
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F6F6F6;
+}
+
+.h1_portfolio {
+    font-family: Gilroy-bold;
+    font-size: 34px;
+    margin-top: 113px;
+    margin-bottom: 81px;
+}
+
+.portfolio_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio_link {
+    font-family: Gilroy-medium;
+    font-size: 18px;
+    text-decoration: underline;
+    margin-top: 45px;
+    margin-bottom: 117px;
+}
+
+
+
+/* Footer */
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h1_footer {
+    font-family: Gilroy-bold;
+    font-size: 34px;
+    margin-top: 114px;
+}
+
+.text {
+    margin-top: 20px;
+    text-align: center;
+    font-family: Gilroy-medium;
+    font-size: 18px;
+}
+
+.btn {
+    margin-top: 30px;
+    background: black;
+    color: white;
+    border-radius: 21px;
+    width: 180px;
+    height: 42px;
+}
+
+.btn:hover {
+    transition: 0.4s;
+    background: #F6F6F6;
+    color: black;
+}
+
+.socials {
+    margin-top: 86px;
+}
+
+.like_me {
+    font-family: Gilroy-medium;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 123px;
+    color: #828282;
+}
+
+
+
+/* Media запросы  */
+
+
+
+@media(max-width: 375px) {
+    nav, .line {
+        visibility: hidden;
+    }
+}
+
+
+
